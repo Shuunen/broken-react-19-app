@@ -1,4 +1,4 @@
-export function CustomerList({ items }) {
+export function CustomerList({ items }: { items: any[] }) {
   return (
     <ul>
       {items.map((item) => (
